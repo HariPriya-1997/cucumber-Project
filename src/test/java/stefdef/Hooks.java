@@ -13,6 +13,7 @@ public class Hooks extends BaseClass {
 	@After
 	public void after() {
 		quit();
+		System.out.println("program ended");
 	}
 
 }
